@@ -5,7 +5,7 @@ describe "Strings" do
       
       test_string "tHis strINg hAS SoMe caPITal lETTErs IN it"
       
-      test_string.downcase.should eq "this string has some capital letters in it"
+      test_string.downcase.should eq "This sTring haS somE capitAl letterS in it"
     end
     
   end
