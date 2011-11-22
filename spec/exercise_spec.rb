@@ -3,9 +3,9 @@ describe "Strings" do
    
     it "should make all letters in the string lowercase" do
       
-      test_string "tHis strINg hAS SoMe caPITal lETTErs IN it"
+      test_string = "tHis strINg hAS SoMe caPITal lETTErs IN it"
       
-      test_string.downcase.should eq "This sTring haS somE capitAl letterS in it"
+      test_string.downcase.should eq "this string has some capital letters in it"
     end
     
   end
